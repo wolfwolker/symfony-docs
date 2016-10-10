@@ -1,6 +1,9 @@
 Creating Private Console Commands
 =================================
 
+.. versionadded:: 3.2
+    The ability to define private console commands was added in Symfony 3.2.
+
 Console commands are public by default, meaning that they are listed alongside
 other commands when executing the console application script without arguments
 or when using the ``list`` command.
