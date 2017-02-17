@@ -123,6 +123,12 @@ To disable the annotation loader after it was enabled, call
 
     In order to use the annotation loader, you should have installed the
     ``doctrine/annotations`` and ``doctrine/cache`` packages from `Packagist`_.
+    
+.. note::
+
+    Remember that annotations aren't loaded automatically, so you should add them to
+    :class:`Doctrine\\Common\\Annotations\\AnnotationRegistry` like Symfony usually does in 
+    :doc:https://github.com/symfony/symfony-demo/blob/master/app/autoload.php
 
 Using Multiple Loaders
 ----------------------
